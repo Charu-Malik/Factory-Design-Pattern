@@ -6,6 +6,8 @@ package main.java;
 public class FactoryMain {
     public static void main(String[] args)
     {
+		file1 ob=new file1();
+		ob.show();
         OperatingSystemFactory osf=new OperatingSystemFactory();
         osf.getInstance("Open").spec();
     }
